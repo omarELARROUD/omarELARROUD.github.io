@@ -3,73 +3,69 @@
 <head>
   <title>Omar EL ARROUD</title>
   <style>
+    /* Global styles */
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
     }
 
+    /* Header styles */
     header {
-      text-align: center;
       background-color: #455b57;
       color: #fff;
-      padding: 20px;
+      text-align: center;
+      padding: 1rem 0;
     }
 
-    h1 {
-      margin: 0;
-    }
-
+    /* Container styles */
     .container {
       max-width: 800px;
-      margin: 20px auto;
+      margin: 0 auto;
       padding: 20px;
-      border: 1px solid #ccc;
+      background-color: #fff;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
+    /* Section styles */
     .section {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
 
-    .section h2 {
-      margin-bottom: 10px;
+    /* Image styles */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     }
 
-    .section p {
-      margin: 0;
+    /* Video styles */
+    video {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     }
 
-    .skills ul {
-      list-style-type: none;
-      padding: 0;
+    /* List styles */
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
     }
 
-    .skills li {
-      margin-bottom: 5px;
-    }
-
-    .contact {
-      margin-top: 20px;
-    }
-
-    .contact p {
-      margin-bottom: 5px;
-    }
-
-    .contact a {
-      color: #333;
+    /* Link styles */
+    a {
+      color: #337ab7;
       text-decoration: none;
     }
 
-    /* Media Queries */
-    @media screen and (max-width: 300px) {
-      /* Adjustments for smaller screens */
-      .container {
-        padding: 7px;
-      }
-
-      .section {
-        margin-bottom: 5px;
-      }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -79,6 +75,7 @@
   </header>
 
   <div class="container">
+    <!-- About Me section -->
     <div class="section">
       <h2>About Me</h2>
       <p>
@@ -88,29 +85,83 @@
       </p>
     </div>
 
+    <!-- Education section -->
     <div class="section">
       <h2>Education</h2>
-      <p>Bachelor of Science in Computer Science, University XYZ, 20XX-20XX</p>
+      <p>Bachelor of Science in Computer Science, National School of Applied Sciences, 2024</p>
     </div>
 
+    <!-- Honors and Certifications section -->
     <div class="section">
-      <h2>Skills</h2>
-      <div class="skills">
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Java</li>
-        </ul>
-      </div>
+      <h2>Honors and Certifications</h2>
+      <ul>
+        <li>alx_africa Software Engineering certificate, 2024</li>
+        <li>JNJD competition certificate - Top 5, 2023</li>
+        <li>MNPC competition certificate - Top 20, 2022</li>
+        <li>Google Technical Support Fundamentals course certificate, 2021</li>
+        <li>Udacity Full stack Development Track, 2021</li>
+      </ul>
     </div>
 
+    <!-- Professional Experience section -->
+    <div class="section">
+      <h2>Professional Experience</h2>
+      <p>
+        Software Engineer Intern at VEOLIA - Conducted crucial database migration project from Oracle to PostgreSQL, gaining hands-on database administration expertise.
+      </p>
+      <p>
+        Software Engineer Intern at 4DIGITAL - Spearheaded database design and backend development for the "Maraqi" e-learning app, contributed to UI enhancement.
+      </p>
+      <!-- Add other professional experiences here -->
+    </div>
+
+    <!-- Projects section -->
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="project">
+        <p>Quiz Service Web Application (Spring Boot - PostgreSQL) - Developed interactive Quiz Service Application using Spring Boot.</p>
+        <img src="media/quiz_app/quiz_app_screenshot.jpg" alt="Quiz App Screenshot">
+      </div>
+      <div class="project">
+        <p>E-commerce Web Application (MERN) - Led complete development of E-Commerce platform.</p>
+        <video controls>
+          <source src="media/ecommerce_app/ecommerce_demo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="project">
+        <p>Contact Manager (CRUD) - Spearheaded creation of Java web application for contact management.</p>
+        <img src="media/contact_manager/contact_manager_screenshot.jpg" alt="Contact Manager Screenshot">
+      </div>
+      <!-- Add other project details here -->
+    </div>
+
+    <!-- SKILLS section -->
+    <div class="section">
+      <h2>SKILLS</h2>
+      <ul>
+        <!-- Your skills list here -->
+      </ul>
+    </div>
+
+    <!-- Extra Professional Experience section -->
+    <div class="section">
+      <h2>Extra Professional Experience</h2>
+      <p>
+        Coach, Facilitator, Trainer at ADDIAE Association, 2022 - Present
+      </p>
+      <p>
+        Head of External Relations at CSC (Computer Science Club) ENSAT, 2020 - Present
+      </p>
+      <!-- Add other extra professional experience details here -->
+    </div>
+
+    <!-- Contact Information section -->
     <div class="section contact">
       <h2>Contact Information</h2>
-      <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
-      <p>Phone: 123-456-7890</p>
-      <p>Website: <a href="https://example.com" target="_blank">example.com</a></p>
+      <p>Email: <a href="mailto:omar.elarroud13@gmail.com">omar.elarroud13@gmail.com</a></p>
+      <p>Phone: +21294318290</p>
+      <p>Website: <a href="https://omarelarroud.github.io/" target="_blank">https://omarelarroud.github.io/</a></p>
     </div>
   </div>
 </body>
