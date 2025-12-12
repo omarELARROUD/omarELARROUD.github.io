@@ -1,11 +1,9 @@
 <h1 align="center">Hi 👋, I'm omar EL ARROUD</h1>
 <h3 align="center">A passionate Software Engineer</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=omarelarroud" alt="omarelarroud" /></a> </p>
+- 🔭 I’m currently working at 4DIGITAL
 
-- 🔭 I’m currently working on **DATAFAS CRM**
-
-- 🌱 I’m currently learning **NN, ReactJs**
+- 🌱 I’m currently learning **NN, LLMs, RAG..**
 
 - 👨‍💻 All of my projects are available at [https://omarelarroud.github.io/](https://omarelarroud.github.io/)
 
